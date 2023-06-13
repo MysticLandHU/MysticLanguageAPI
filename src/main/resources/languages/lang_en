@@ -1,0 +1,99 @@
+languageName|: English
+timeLeft30mins|: &bBonuses &f&l>> &cThe &6%s &cbonus will expire in 30 minutes!
+timeLeft10mins|: &bBonuses &f&l>> &cThe &6%s &cbonus will expire in 10 minutes!
+timeLeft5mins|: &bBonuses &f&l>> &cThe &6%s &cbonus will expire in 5 minutes!
+timeLeftLine1|: &b---------------------
+timeLeftLine2|: &3The &6%s &3bonus has expired!
+timeLeftLine3|: &3This bonus was activated by %s.
+timeLeftLine4|: &b---------------------
+bonusAlreadyActive|: &bBonuses &f&l>> &cThe &6%s &cbonus is already active!
+activatedTitle|: &6&l%s&r &3&o(by %s)&r &8- &c
+activatedLine1|: &3The &6%s &3bonus has been activated!
+activatedLine2|: &3This bonus was activated by &7%s.
+loadedBoostPrinttoConsole|: Successfully restored %s boosts!
+loadedPlayerDataConsole|: Successfully restored %s player data!
+successLangChange|: &bBonuses &f&l>> &aYou have successfully switched to the English language!
+langNotExist|: &bBonuses &f&l>> &cThis language does not exist!
+activatedTitleRunneable|: &6&l%s&r &3&o(by %s)&r &8- &c
+reloadedConfig|: &9&lMystic&b&lLand &f&l>> &2&lThe configuration has been successfully reloaded.
+npcName|: &5&lBonus Shop
+mainCommand|: &9&lMystic&b&lLand &f>> &9Mystic&bLand's &3custom bonus plugin for Classic Bedwars server. Use the command &2/mb help &3for assistance. Enjoy your game with the server team!
+helpCommandVonalak|: &b---------------------------------
+helpCommand1|: &9Mystic&bBoost &fplugin help Page: &61&f/&63
+helpCommand1Line1|: &b/mb &f- &3Main command
+helpCommand1Line2|: &b/mb active &f- &3Displays active bonuses on the server, who activated them, and how much time is left.
+helpCommand2|: &9Mystic&bBoost &fplugin help Page: &62&f/&63
+helpCommand2Line1|: &b/mb activate &f- &3You can activate a bonus after purchasing it through a GUI. After entering this command, click on the desired bonus to activate it. Activation deadline: None. It remains active for 1 hour from activation, and your name will be displayed on the server. &o(If you are an admin on the server, the activated bonus will not be deducted from your balance!)
+helpCommand2Line2|: &b/mb toggle &f- &3If you are bothered by the Bossbar at the top, you can easily toggle it on/off with this command.
+helpCommand2Line3|: &b/mb start <bonus legacy name> &f- &3This is executed when you click on the bonus activation, but you can also activate it with a command if you prefer.
+helpCommand3|: &9Mystic&bBoost &fplugin help Page: &63&f/&63
+helpCommand3AdminLine|: &cAdministrator commands
+helpCommand3Line1|: &b/mb stop <bonus legacy name> &f- &3Stops the specified bonus.
+helpCommand3Line2|: &b/mb setnpc &f- &3Places the Bonus Trader NPC. Only 1 can exist. If it already exists, the NPC will appear where you entered the command.
+helpCommand3Line3|: &b/mb settime <bonus legacy name> <time in seconds> &f- &3Sets the expiration time for a running bonus. When a player activates a bonus, it counts down from 60 minutes, but you can set it back to 60 minutes. Range: 1-3599 seconds.
+helpCommand3NoPerm|: &9&lMystic&b&lLand &f&l>> &cYou don't have permission for this, as these are admin commands.
+toggleCommandOn|: &bBonuses &f&l>> &2Successfully enabled the Bossbar!
+toggleCommandOff|: &bBonuses &f&l>> &2Successfully disabled the Bossbar!
+setNPCCommand|: &bBonuses &f&l>> &2You have successfully placed the NPC. It is now visible at the set location!
+activeBoostsCommandVonalak|: &b---------------------
+activeBoostsMessage|: &3Active bonuses:
+activeBoostsMessageAll|: &f- &6%s &8(by &7&o%s&r&8) &8(&ctime remaining: %s minutes&8)
+bossbarMessage|: &6&l%s &3(by %s) &7- &c%s
+addedCommand|: &bBonuses &f>> &aYou have successfully added a &6%s &aboost to your balance.
+noActiveBoosts|: &bBonuses &f&l>> &cThere are currently no active bonuses on the server!
+onlyModernBW|: &bBonuses &f&l>> &cThis bonus is only available on the Modern Bedwars server!
+onlyClassicBW|: &bBonuses &f&l>> &cThis bonus is only available on the Classic Bedwars server!
+successfullyActivated|: &bBonuses &f&l>> &aYou have successfully activated the &6%s &abonus!
+alreadyActivated|: &bBonuses &f&l>> &cThe &6%s &cbonus is already active!
+notPurchased|: &bBonuses &f>> &cYou haven't purchased the &7%s &cbonus yet!
+commandCooldown|: &bBonuses &f&l>> &cPlease wait a few seconds to use this command again!
+activateBoostVonalak|: &b----------------------------------------
+activateableBoost|: Activateable bonuses:
+activateHover|: &6Activate the &7%s &6bonus
+activeLanguage|: &3Your current language: &a%s
+activeLanguageAdmin|: &bBonuses &f&l>> &3Language of &a%s &3is: &a%s
+noPurchasedBoost|: &bBonuses &f>> &cThere are currently no purchased bonuses.
+stopCommand|: &bBonuses &f&l>> &aYou have successfully stopped the &6%s &abonus!
+successSetTime|: &bBonuses &f&l>> &aYou have successfully set the time for the &6%s &abonus. Remaining time from now: &6%s &asec.
+notActivatedBoost|: &bBonuses &f&l>> &cThe &6%s &cbonus is currently not active!
+only1and3599sec|: &bBonuses &f&l>> &cOnly values between 1 and 3599 can be entered!
+listenerBaseLine|: &b---------------------
+listenerBaseActiveBonuses|: &3Active bonuses:
+listenerBonusPotionName|: &bBonus Potion
+listenerClassicIronName|: &7Iron Rod
+listenerClassicGoldName|: &6Gold Rod
+notEnoughMysticCoin|: &bBonuses &f&l>> &cYou don't have enough &6Ⓜ&c-coins for this.
+purchaseConfirmGUITitle|: &3Purchase Confirmation
+confirmButton|: &aConfirm
+successPurchase|: &bBonuses &f&l>> &2You have purchased a &6%s &2bonus for &6%sⓂ&2!
+confirmNOButton|: &4Cancel
+currentMysticCoinBalBedrock|: Current MysticCoin balance: &6%sⓂ&f.
+boostSuccessPurchaseBedrock|: &bBonuses &f&l>> &2You have purchased a &6%s &2bonus for &6%sⓂ&2!
+GUIContent1|: &eBonus Name: &6%s
+GUIContent2|: &eDescription: &6%s
+GUIContent3|: &ePrice: &6%sⓂ
+GUIContent4|: &eYour Balance: &6%sⓂ
+GUIContent5|: &eAfter Purchase: &6%sⓂ
+boostNamePotion|: Potion
+boostNameBonusItems|: Bonus Items
+boostNameDoubleMat|: Double Ore Generation
+boostNameDoubleMCoin|: Double MysticCoin
+boostNameOPPack|: OP Pack
+availableLanguages|: Available Languages
+errorLoadingLang|: &bBonuses &f&l>> &cFailed to load the requested language!
+configPOTIONname|: &6&lPotion Boost
+configPOTIONlore|: &bAt the start of the game, ;&byou receive a set of starter potions. ;&b(3 potions with the following effects: ;&bInvisibility II, Jump Boost IX for 1 minute).
+configPOTIONprice|: &ePrice: &6%sⓂ
+configBONUSITEMSname|: &6&lBonus Items Boost
+configBONUSITEMSlore|: &bAt the start of the game, ;&byou receive a set of starter ;&bresources. (20 iron and 10 gold).
+configBONUSITEMSprice|: &ePrice: &6%sⓂ
+configDOUBLEMATERIALname|: &6&lDouble Material Yield Boost
+configDOUBLEMATERIALlore|: &bThe amount of resources dropped ;&bby iron and gold ore is doubled ;&bwhen mining the ores.
+configDOUBLEMATERIALprice|: &ePrice: &6%sⓂ
+configDOUBLECOINname|: &6&lDouble MysticCoin Boost
+configDOUBLECOINlore|: &bDouble Ⓜ reward. ;&bThe system doubles the prize ;&byou would normally receive in MysticCoins.
+configDOUBLECOINprice|: &ePrice: &6%sⓂ
+configOPPACKname|: &6&lOP Pack
+configOPPACKlore|: &bAt the start of the game, ;&bevery player receives ;&benchanted golden apples!
+configOPPACKprice|: &ePrice: &6%sⓂ
+bonusPotionName|: &bBonus Potion

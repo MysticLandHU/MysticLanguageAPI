@@ -1,0 +1,26 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm' version '1.5.10'
+}
+
+group 'hu.mysticland'
+version '0.0.1'
+
+repositories {
+    mavenCentral()
+    maven {
+        setUrl("https://repo.opencollab.dev/maven-snapshots/")
+    }
+    maven {
+        setUrl("https://papermc.io/repo/repository/maven-public/")
+    }
+    maven {
+        setUrl("https://jitpack.io")
+    }
+}
+
+dependencies {
+    compileOnly("org.jetbrains.kotlin:kotlin-stdlib")
+    compileOnly("com.destroystokyo.paper:paper-api:1.16.5-R0.1-SNAPSHOT")
+    compileOnly("com.github.Redempt:RedLib:6.5.8")
+    compileOnly("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
+}

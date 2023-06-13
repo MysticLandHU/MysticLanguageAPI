@@ -1,0 +1,99 @@
+languageName|: Română
+timeLeft30mins|: &bBonusuri &f&l>> &cBonusul &6%s &cva expira în 30 de minute!
+timeLeft10mins|: &bBonusuri &f&l>> &cBonusul &6%s &cva expira în 10 minute!
+timeLeft5mins|: &bBonusuri &f&l>> &cBonusul &6%s &cva expira în 5 minute!
+timeLeftLine1|: &b---------------------
+timeLeftLine2|: &3Bonusul &6%s &3a expirat!
+timeLeftLine3|: &3Acest bonus a fost activat de către %s.
+timeLeftLine4|: &b---------------------
+bonusAlreadyActive|: &bBonusuri &f&l>> &cBonusul &6%s &ceste deja activ!
+activatedTitle|: &6&l%s&r &3&o(de către %s)&r &8- &c
+activatedLine1|: &3Bonusul &6%s &3a fost activat!
+activatedLine2|: &3Acest bonus a fost activat de către &7%s.
+loadedBoostPrinttoConsole|: %s bonusuri au fost restaurate cu succes!
+loadedPlayerDataConsole|: %s date de jucători au fost restaurate cu succes!
+successLangChange|: &bBonusuri &f&l>> &aAi trecut cu succes la limba română!
+langNotExist|: &bBonusuri &f&l>> &cAceastă limbă nu există!
+activatedTitleRunneable|: &6&l%s&r &3&o(de către %s)&r &8- &c
+reloadedConfig|: &9&lMystic&b&lLand &f&l>> &2&lConfigurația a fost reîncărcată cu succes.
+npcName|: &5&lBonusuri
+mainCommand|: &9&lMystic&b&lLand &f>> &3Pluginul bonus personalizat &9Mystic&bLand &3pentru serverul Bedwars Classic. Folosește comanda &2/mb help &3pentru asistență. Bucură-te de joc cu echipa serverului!
+helpCommandVonalak|: &b---------------------------------
+helpCommand1|: &9Mystic&bBoost &fajutor plugin Pagina: &61&f/&63
+helpCommand1Line1|: &b/mb &f- &3Comandă principală
+helpCommand1Line2|: &b/mb active &f- &3Afișează bonusurile active de pe server, cine le-a activat și cât timp mai este rămas.
+helpCommand2|: &9Mystic&bBoost &fajutor plugin Pagina: &62&f/&63
+helpCommand2Line1|: &b/mb activate &f- &3Poți activa un bonus după ce l-ai cumpărat prin interfața grafică. După introducerea acestei comenzi, dă clic pe bonusul dorit pentru a-l activa. Termenul de activare: Niciunul. Rămâne activ timp de 1 oră de la activare, iar numele tău va fi afișat pe server. &o(Dacă ești administrator pe server, bonusul activat nu va fi scăzut din soldul tău!)
+helpCommand2Line2|: &b/mb toggle &f- &3Dacă ești deranjat de bara Bossbar de sus, o poți activa/dezactiva cu ușurință cu această comandă.
+helpCommand2Line3|: &b/mb start <nume bonus vechi> &f- &3Aceasta este executată atunci când apeși pe activarea bonusului, dar îl poți activa și cu o comandă dacă preferi.
+helpCommand3|: &9Mystic&bBoost &fajutor plugin Pagina: &63&f/&63
+helpCommand3AdminLine|: &cComenzi pentru administratori
+helpCommand3Line1|: &b/mb stop <nume bonus vechi> &f- &3Oprește bonusul specificat.
+helpCommand3Line2|: &b/mb setnpc &f- &3Plasează NPC-ul Bonus Trader. Poate exista doar 1. Dacă deja există, NPC-ul va apărea în locul unde ai introdus comanda.
+helpCommand3Line3|: &b/mb settime <nume bonus vechi> <timp în secunde> &f- &3Stabilește timpul de expirare pentru un bonus activ. Când un jucător activează un bonus, numărătoarea inversă pornește de la 60 de minute, dar poți seta înapoi la 60 de minute. Interval: 1-3599 secunde.
+helpCommand3NoPerm|: &9&lMystic&b&lLand &f&l>> &cNu ai permisiune pentru aceasta, deoarece acestea sunt comenzi de administrator.
+toggleCommandOn|: &bBonusuri &f&l>> &2Ai activat cu succes Bossbar-ul!
+toggleCommandOff|: &bBonusuri &f&l>> &2Ai dezactivat cu succes Bossbar-ul!
+setNPCCommand|: &bBonusuri &f&l>> &2Ai plasat cu succes NPC-ul. Acum este vizibil în locația setată!
+activeBoostsCommandVonalak|: &b---------------------
+activeBoostsMessage|: &3Bonusuri active:
+activeBoostsMessageAll|: &f- &6%s &8(de către &7&o%s&r&8) &8(&ctimp rămas: %s minute&8)
+bossbarMessage|: &6&l%s &3(este %s) &7- &c%s
+addedCommand|: &bBonusuri &f>> &aAi adăugat cu succes un boost &6%s &ala soldul tău.
+noActiveBoosts|: &bBonusuri &f&l>> &cNu există momentan bonusuri active pe server!
+onlyModernBW|: &bBonusuri &f&l>> &cAcest bonus este disponibil doar pe serverul Modern Bedwars!
+onlyClassicBW|: &bBonusuri &f&l>> &cAcest bonus este disponibil doar pe serverul Classic Bedwars!
+successfullyActivated|: &bBonusuri &f&l>> &aAi activat cu succes bonusul &6%s &a!
+alreadyActivated|: &bBonusuri &f&l>> &cBonusul &6%s &ceste deja activ!
+notPurchased|: &bBonusuri &f>> &cNu ai cumpărat încă bonusul &7%s &c!
+commandCooldown|: &bBonusuri &f&l>> &cAșteaptă câteva secunde pentru a folosi din nou această comandă!
+activateBoostVonalak|: &b----------------------------------------
+activateableBoost|: Bonusuri activate:
+activateHover|: &6Activează bonusul &7%s &6
+activeLanguage|: &bBonusuri &f&l>> &3Limba ta curentă este: &a%s
+activeLanguageAdmin|: &bBonusuri &f&l>> &3Limba pentru &a%s &3este: &a%s
+noPurchasedBoost|: &bBonusuri &f>> &cMomentan nu ai bonusuri achiziționate.
+stopCommand|: &bBonusuri &f&l>> &aAi oprit cu succes bonusul &6%s &a!
+successSetTime|: &bBonusuri &f&l>> &aAi setat cu succes timpul pentru bonusul &6%s&a. Timpul rămas: &6%s &asecundă.
+notActivatedBoost|: &bBonusuri &f&l>> &cBonusul &6%s &cneste momentan activ!
+only1and3599sec|: &bBonusuri &f&l>> &cPot fi introduse doar valori între 1 și 3599!
+listenerBaseLine|: &b---------------------
+listenerBaseActiveBonuses|: &3Bonusuri active:
+listenerBonusPotionName|: &bPotion Bonus
+listenerClassicIronName|: &7Bară de Fier
+listenerClassicGoldName|: &6Bară de Aur
+notEnoughMysticCoin|: &bBonusuri &f&l>> &cNu ai suficiente &6Ⓜ&c-monezi pentru asta.
+purchaseConfirmGUITitle|: &3Confirmare Achiziție
+confirmButton|: &aConfirmă
+successPurchase|: &bBonusuri &f&l>> &2Ai cumpărat un boost &6%s &2pentru &6%sⓂ&2!
+confirmNOButton|: &4Anulează
+currentMysticCoinBalBedrock|: Sold curent de MysticCoin: &6%sⓂ&f.
+boostSuccessPurchaseBedrock|: &bBonusuri &f&l>> &2Ai cumpărat un boost &6%s &2pentru &6%sⓂ&2!
+GUIContent1|: &eNume Bonus: &6%s
+GUIContent2|: &eDescriere: &6%s
+GUIContent3|: &ePreț: &6%sⓂ
+GUIContent4|: &eSoldul tău: &6%sⓂ
+GUIContent5|: &eDupă Achiziție: &6%sⓂ
+boostNamePotion|: Potiune
+boostNameBonusItems|: Obiecte Bonus
+boostNameDoubleMat|: Dublarea Generării Minereurilor
+boostNameDoubleMCoin|: Dublarea MysticCoin-urilor
+boostNameOPPack|: Pachet OP
+availableLanguages|: Limbi Disponibile
+errorLoadingLang|: &bBonusuri &f&l>> &cNu s-a putut încărca limba solicitată!
+configPOTIONname|: &6&lBoost Poti
+configPOTIONlore|: &bLa începutul jocului, ;&bprimești un set de potiuni ;&bde bază. (3 potiuni cu următoarele efecte: ;&bInvisibilitate II, Jump Boost IX timp de 1 minut).
+configPOTIONprice|: &ePreț: &6%sⓂ
+configBONUSITEMSname|: &6&lBoost Obiecte Bonus
+configBONUSITEMSlore|: &bLa începutul jocului, ;&bprimești un set de ;&bresurse de bază. (20 fier și 10 aur).
+configBONUSITEMSprice|: &ePreț: &6%sⓂ
+configDOUBLEMATERIALname|: &6&lBoost Dublare Material
+configDOUBLEMATERIALlore|: &bCantitatea de resurse obținute ;&bdin minereul de fier și aur se ;&bdublează la extragerea minereului.
+configDOUBLEMATERIALprice|: &ePreț: &6%sⓂ
+configDOUBLECOINname|: &6&lBoost Dublare MysticCoin
+configDOUBLECOINlore|: &bDublarea recompensei Ⓜ. ;&bSistemul dublează premiul pe care l-ai ;&bprimi în mod normal în MysticCoins.
+configDOUBLECOINprice|: &ePreț: &6%sⓂ
+configOPPACKname|: &6&lPachet OP
+configOPPACKlore|: &bLa începutul jocului, ;&bfiecare jucător primește ;&bmere de aur fermecate!
+configOPPACKprice|: &ePreț: &6%sⓂ
+bonusPotionName|: &bBonus Poţiune

@@ -1,0 +1,9 @@
+name: MysticLanguageAPI
+main: hu.mysticland.mysticlanguageapi.MysticLanguageAPI
+version: 0.0.1
+depend:
+  - RedLib
+  - KotlinCraft
+api-version: 1.16
+author: GeryyHUN23
+description: Nyelvfordító API a MysticLand szerverre
