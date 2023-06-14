@@ -11,8 +11,6 @@ class MysticLanguageAPI: JavaPlugin() {
     override fun onEnable() {
         languageAPI = this
         languageAPI.languageAPI = plugin
-        LanguageAPI.loadLanguagesFromFile()
-        LanguageAPI.loadLanguages("languages")
         logger.info("The API started successfully")
     }
 
