@@ -12,8 +12,6 @@ activatedLine1|: &3Bonusul &6%s &3a fost activat!
 activatedLine2|: &3Acest bonus a fost activat de către &7%s.
 loadedBoostPrinttoConsole|: %s bonusuri au fost restaurate cu succes!
 loadedPlayerDataConsole|: %s date de jucători au fost restaurate cu succes!
-successLangChange|: &bBonusuri &f&l>> &aAi trecut cu succes la limba română!
-langNotExist|: &bBonusuri &f&l>> &cAceastă limbă nu există!
 activatedTitleRunneable|: &6&l%s&r &3&o(de către %s)&r &8- &c
 reloadedConfig|: &9&lMystic&b&lLand &f&l>> &2&lConfigurația a fost reîncărcată cu succes.
 npcName|: &5&lBonusuri
@@ -46,12 +44,9 @@ onlyClassicBW|: &bBonusuri &f&l>> &cAcest bonus este disponibil doar pe serverul
 successfullyActivated|: &bBonusuri &f&l>> &aAi activat cu succes bonusul &6%s &a!
 alreadyActivated|: &bBonusuri &f&l>> &cBonusul &6%s &ceste deja activ!
 notPurchased|: &bBonusuri &f>> &cNu ai cumpărat încă bonusul &7%s &c!
-commandCooldown|: &bBonusuri &f&l>> &cAșteaptă câteva secunde pentru a folosi din nou această comandă!
 activateBoostVonalak|: &b----------------------------------------
 activateableBoost|: Bonusuri activate:
 activateHover|: &6Activează bonusul &7%s &6
-activeLanguage|: &bBonusuri &f&l>> &3Limba ta curentă este: &a%s
-activeLanguageAdmin|: &bBonusuri &f&l>> &3Limba pentru &a%s &3este: &a%s
 noPurchasedBoost|: &bBonusuri &f>> &cMomentan nu ai bonusuri achiziționate.
 stopCommand|: &bBonusuri &f&l>> &aAi oprit cu succes bonusul &6%s &a!
 successSetTime|: &bBonusuri &f&l>> &aAi setat cu succes timpul pentru bonusul &6%s&a. Timpul rămas: &6%s &asecundă.
@@ -79,8 +74,6 @@ boostNameBonusItems|: Obiecte Bonus
 boostNameDoubleMat|: Dublarea Generării Minereurilor
 boostNameDoubleMCoin|: Dublarea MysticCoin-urilor
 boostNameOPPack|: Pachet OP
-availableLanguages|: Limbi Disponibile
-errorLoadingLang|: &bBonusuri &f&l>> &cNu s-a putut încărca limba solicitată!
 configPOTIONname|: &6&lBoost Poti
 configPOTIONlore|: &bLa începutul jocului, ;&bprimești un set de potiuni ;&bde bază. (3 potiuni cu următoarele efecte: ;&bInvisibilitate II, Jump Boost IX timp de 1 minut).
 configPOTIONprice|: &ePreț: &6%sⓂ

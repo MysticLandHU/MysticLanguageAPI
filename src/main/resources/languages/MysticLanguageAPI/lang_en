@@ -1,0 +1,8 @@
+languageName|: English
+successLangChange|: &9&lMystic&b&lLand &f&l>> &aYou have successfully changed the language to English!
+langNotExist|: &9&lMystic&b&lLand &f&l>> &cThis language does not exist!
+commandCooldown|: &9&lMystic&b&lLand &f&l>> &cPlease wait a few seconds before using this command again!
+activeLanguage|: &9&lMystic&b&lLand &f&l>> &3Your current language: &a%s
+activeLanguageAdmin|: &9&lMystic&b&lLand &f&l>> &a%s &3language: &a%s
+availableLanguages|: Available languages:
+errorLoadingLang|: &9&lMystic&b&lLand &f&l>> &cFailed to load the requested language!

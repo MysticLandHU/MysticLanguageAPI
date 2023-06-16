@@ -12,8 +12,6 @@ activatedLine1|: &3A(z) &6%s &3bónusz aktiválva!
 activatedLine2|: &3Ezt a bónuszt &7%s &3aktiválta.
 loadedBoostPrinttoConsole|: Sikeresen visszaállítottunk %s boostot!
 loadedPlayerDataConsole|: Sikeresen visszaállítottunk %s játékos adatot!
-successLangChange|: &bBónuszok &f&l>> &aSikeresen váltottál Magyar nyelvre!
-langNotExist|: &bBónuszok &f&l>> &cEz a nyelv nem létezik!
 activatedTitleRunneable|: &6&l%s&r &3&o(%s jóvoltából)&r &8- &c
 reloadedConfig|: &9&lMystic&b&lLand &f&l>> &2&lA konfiguráció sikeresen újratöltve.
 npcName|: &5&lBónusz üzlet
@@ -46,12 +44,9 @@ onlyClassicBW|: &bBónuszok &f&l>> &cEz a bónusz csak a Classic BedWars szerver
 successfullyActivated|: &bBónuszok &f&l>> &aSikeresen aktiváltad a(z) &6%s &abónuszt!
 alreadyActivated|: &bBónuszok &f&l>> &cA(z) &6%s &cbónusz jelenleg már aktív!
 notPurchased|: &bBónuszok &f>> &cJelenleg nincs megvéve neked 1x sem a &7%s &cbónusz!
-commandCooldown|: &bBónuszok &f&l>> &cKérlek várj pár másodpercet, hogy újra használd ezt a parancsot!
 activateBoostVonalak|: &b----------------------------------------
 activateableBoost|: Aktiválható bónuszok:
 activateHover|: &6Aktiváld a(z) &7%s &6bónuszt
-activeLanguage|: &bBónuszok &f&l>> &3A jelenlegi nyelved: &a%s
-activeLanguageAdmin|: &bBónuszok &f&l>> &a%s &3nyelve: &a%s
 noPurchasedBoost|: &bBónuszok &f>> &cJelenleg nincs egy Bónusz sem megvásárolva
 stopCommand|: &bBónuszok &f&l>> &aSikeresen leállítottad a(z) &6%s &abónuszt!
 successSetTime|: &bBónuszok &f&l>> &aSikeresen beállítottad a(z) &6%s &abónusz idejét. Hátralévő idő mostantól: &6%s &amásodperc.
@@ -79,8 +74,6 @@ boostNameBonusItems|: Bónusz Tárgyak
 boostNameDoubleMat|: Dupla Érctermelődés
 boostNameDoubleMCoin|: Dupla MysticCoin
 boostNameOPPack|: OP Csomag
-availableLanguages|: Lehetséges nyelvek
-errorLoadingLang|: &bBónuszok &f&l>> &cNem sikerült a kért nyelv betöltése!
 configPOTIONname|: &6&lPotion Boost
 configPOTIONlore|: &bAt the start of the game, you receive a set of starter potions. (3 potions with the following effects: Invisibility II, Jump Boost IX for 1 minute).
 configBONUSITEMSname|: &6&lBonus Items Boost

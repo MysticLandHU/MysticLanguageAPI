@@ -12,8 +12,6 @@ activatedLine1|: &3The &6%s &3bonus has been activated!
 activatedLine2|: &3This bonus was activated by &7%s.
 loadedBoostPrinttoConsole|: Successfully restored %s boosts!
 loadedPlayerDataConsole|: Successfully restored %s player data!
-successLangChange|: &bBonuses &f&l>> &aYou have successfully switched to the English language!
-langNotExist|: &bBonuses &f&l>> &cThis language does not exist!
 activatedTitleRunneable|: &6&l%s&r &3&o(by %s)&r &8- &c
 reloadedConfig|: &9&lMystic&b&lLand &f&l>> &2&lThe configuration has been successfully reloaded.
 npcName|: &5&lBonus Shop
@@ -46,12 +44,9 @@ onlyClassicBW|: &bBonuses &f&l>> &cThis bonus is only available on the Classic B
 successfullyActivated|: &bBonuses &f&l>> &aYou have successfully activated the &6%s &abonus!
 alreadyActivated|: &bBonuses &f&l>> &cThe &6%s &cbonus is already active!
 notPurchased|: &bBonuses &f>> &cYou haven't purchased the &7%s &cbonus yet!
-commandCooldown|: &bBonuses &f&l>> &cPlease wait a few seconds to use this command again!
 activateBoostVonalak|: &b----------------------------------------
 activateableBoost|: Activateable bonuses:
 activateHover|: &6Activate the &7%s &6bonus
-activeLanguage|: &3Your current language: &a%s
-activeLanguageAdmin|: &bBonuses &f&l>> &3Language of &a%s &3is: &a%s
 noPurchasedBoost|: &bBonuses &f>> &cThere are currently no purchased bonuses.
 stopCommand|: &bBonuses &f&l>> &aYou have successfully stopped the &6%s &abonus!
 successSetTime|: &bBonuses &f&l>> &aYou have successfully set the time for the &6%s &abonus. Remaining time from now: &6%s &asec.
@@ -79,8 +74,6 @@ boostNameBonusItems|: Bonus Items
 boostNameDoubleMat|: Double Ore Generation
 boostNameDoubleMCoin|: Double MysticCoin
 boostNameOPPack|: OP Pack
-availableLanguages|: Available Languages
-errorLoadingLang|: &bBonuses &f&l>> &cFailed to load the requested language!
 configPOTIONname|: &6&lPotion Boost
 configPOTIONlore|: &bAt the start of the game, ;&byou receive a set of starter potions. ;&b(3 potions with the following effects: ;&bInvisibility II, Jump Boost IX for 1 minute).
 configPOTIONprice|: &ePrice: &6%sⓂ
