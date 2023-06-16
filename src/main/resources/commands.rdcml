@@ -1,0 +1,27 @@
+set-language {
+    hook set-language
+    user player
+    nohelp
+}
+activate-language string:lang {
+    hook activate-language
+    user player
+    nohelp
+}
+lang {
+    hook cmd_lang
+    user player
+    nohelp
+}
+getlang player:player {
+    hook cmd_getlang
+    user player
+    permission mysticboosts.getlang
+    nohelp
+}
+    //getlist {
+    //    hook cmd_getlist
+    //    user player
+    //    permission mysticboosts.getlist
+    //}
+}

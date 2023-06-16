@@ -1,7 +1,10 @@
 package hu.mysticland.mysticlanguageapi
 
 import hu.mysticland.mysticlanguageapi.api.LanguageAPI
+import hu.mysticland.mysticlanguageapi.commands.CommandManager
 import org.bukkit.plugin.java.JavaPlugin
+import redempt.redlib.commandmanager.CommandParser
+import redempt.redlib.commandmanager.Messages
 import java.util.*
 
 class MysticLanguageAPI: JavaPlugin() {
@@ -11,6 +14,8 @@ class MysticLanguageAPI: JavaPlugin() {
     override fun onEnable() {
         languageAPI = this
         languageAPI.languageAPI = plugin
+        CommandParser(getResource("commands.rdcml"), Messages.getLoaded(this)).parse()
+            .register("mysticlang", CommandManager())
         logger.info("The API started successfully")
     }
 

@@ -20,6 +20,7 @@ repositories {
 
 dependencies {
     compileOnly("org.jetbrains.kotlin:kotlin-stdlib")
+    compileOnly(files("libs/MysticBoosts.jar"))
     compileOnly("com.destroystokyo.paper:paper-api:1.16.5-R0.1-SNAPSHOT")
     compileOnly("com.github.Redempt:RedLib:6.5.8")
     compileOnly("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
