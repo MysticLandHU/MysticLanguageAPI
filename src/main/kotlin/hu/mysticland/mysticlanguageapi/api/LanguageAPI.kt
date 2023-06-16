@@ -18,8 +18,10 @@ import java.nio.file.Files
 import java.nio.file.Path
 import java.nio.file.Paths
 import java.util.*
+import kotlin.io.path.isRegularFile
 import kotlin.io.path.name
 import kotlin.io.path.pathString
+import kotlin.system.exitProcess
 
 object LanguageAPI {
 
@@ -148,22 +150,31 @@ object LanguageAPI {
     }
 
     fun loadLanguages(l: String) {
-        Files.walk(Paths.get(MysticLanguageAPI.plugin.dataFolder.path+"/"+l))
-            .filter { Files.isRegularFile(it) }
+        languageData.clear()
+        Files.walk(Paths.get(plugin.dataFolder.path+"/"+l))
             .forEach {
-                if (it != null) {
-                    if (it.fileName.pathString.contains("lang_")) {
-                        languageData.set(Language(it.fileName.name), loadLanguage(it))
+                if (it.isRegularFile()){
+                    if (it != null) {
+                        if (it.fileName.pathString.contains("lang_")) {
+                            val languagePack = loadLanguage(it)
+                            if (languageData.get(Language(it.fileName.name)) != null) {
+                                languageData.get(Language(it.fileName.name))!!.forEach {
+                                    languagePack.set(it.key, it.value)
+                                }
+                            }
+                            languageData.set(Language(it.fileName.name), languagePack)
+                        }
                     }
                 }
             }
+
     }
 
     fun loadLanguage(langFile: Path): HashMap<String, String> {
         val languagePack = HashMap<String, String>()
         val inputStream: InputStream = File(langFile.toUri()).inputStream()
         if (File(langFile.toUri()).name.contains("lang_")) {
-            plugin.logger.info("Nyelvi fájl betöltése folyamatban: ${File(langFile.toUri()).name}")
+            plugin.logger.info("Nyelvi fájl betöltése folyamatban: ${File(langFile.toUri()).parentFile.name} (${File(langFile.toUri()).name})")
             inputStream.bufferedReader().forEachLine { line ->
                 if (!line.startsWith("#") && line.isNotBlank()) {
                     val parts = line.split("|:")
