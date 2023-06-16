@@ -6,6 +6,8 @@ import hu.mysticland.mysticlanguageapi.Language
 import hu.mysticland.mysticlanguageapi.MysticLanguageAPI
 import hu.mysticland.mysticlanguageapi.MysticLanguageAPI.Companion.plugin
 import hu.mysticland.mysticlanguageapi.SavedSetting
+import org.bukkit.command.Command
+import org.bukkit.command.CommandSender
 import org.bukkit.entity.Player
 import redempt.redlib.misc.FormatUtils
 import java.io.File
@@ -23,12 +25,28 @@ object LanguageAPI {
 
     var languageData = HashMap<Language, HashMap<String,String>>()
     var languageSettings = HashMap<UUID,Language>()
+    var languageSettingsSender = HashMap<CommandSender,Language>()
     var languagesDisplayNamesList = mutableListOf<String>()
 
     // TODO: Try to add a sign belowName to see the language of the player
 
     fun getLine(x: String, player: Player): String {
         val lang = getLanguage(player)
+        val lines = languageData.get(lang)
+        var line = ""
+        if (lines != null) {
+            if (lines.containsKey(x)) {
+                line = lines[x].toString()
+            }else{
+                return ""
+            }
+        }else {
+            return ""
+        }
+        return FormatUtils.color(line)
+    }
+    fun getLine(x: String, sender: CommandSender): String {
+        val lang = getLanguage(sender)
         val lines = languageData.get(lang)
         var line = ""
         if (lines != null) {
@@ -105,6 +123,7 @@ object LanguageAPI {
 
     fun setLanguage(player: Player, lang: Language){
         languageSettings.set(player.uniqueId,lang)
+        languageSettingsSender.set(player, lang)
     }
 
     fun getLanguage(player: Player): Language? {
@@ -112,6 +131,14 @@ object LanguageAPI {
             languageSettings.set(player.uniqueId,Language("lang_hu"))
         }
         val lang = languageSettings.get(player.uniqueId)
+        return lang
+    }
+
+    fun getLanguage(sender: CommandSender): Language? {
+        if(languageSettingsSender.get(sender) == null){
+            languageSettingsSender.set(sender,Language("lang_hu"))
+        }
+        val lang = languageSettingsSender.get(sender)
         return lang
     }
 
@@ -133,15 +160,19 @@ object LanguageAPI {
     }
 
     fun loadLanguage(langFile: Path): HashMap<String, String> {
-        var languagePack = HashMap<String,String>()
+        val languagePack = HashMap<String, String>()
         val inputStream: InputStream = File(langFile.toUri()).inputStream()
         if (File(langFile.toUri()).name.contains("lang_")) {
             plugin.logger.info("Nyelvi fájl betöltése folyamatban: ${File(langFile.toUri()).name}")
-            inputStream.bufferedReader().forEachLine {
-                val it2 = it.split("\n")[0]
-                var t = it2.split("|:")[0]
-                var line = it2.split("|:")[1].removePrefix(" ")
-                languagePack[t] = line
+            inputStream.bufferedReader().forEachLine { line ->
+                if (!line.startsWith("#") && line.isNotBlank()) {
+                    val parts = line.split("|:")
+                    if (parts.size == 2) {
+                        val key = parts[0].trim()
+                        val value = parts[1].removePrefix(" ").trim()
+                        languagePack[key] = value
+                    }
+                }
             }
         }
         return languagePack
