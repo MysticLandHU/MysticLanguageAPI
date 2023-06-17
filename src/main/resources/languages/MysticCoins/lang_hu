@@ -11,6 +11,7 @@ transferSuccess|: &9&lMystic&b&lLand &f&l>> &3Sikeresen átutaltál &6%sⓂ&3-t 
 transferNotified|: &9&lMystic&b&lLand &f&l>> &3Kaptál &6%sⓂ&3-t &b%s &3nevű játékostól
 transferCancelled|: &9&lMystic&b&lLand &f&l>> &cAz átutalást megszakítottad!
 transferSelf|: &9&lMystic&b&lLand &f&l>> &cNem utalhatsz saját magadnak!
+transferAnswerYes|: igen
 addSuccess|: &9&lMystic&b&lLand &f&l>> &3Sikeresen küldtél &6%sⓂ &b%s &3nevű játékosnak
 addErrorIntMaxSender|: &9&lMystic&b&lLand &f&l>> &cA játékos egyenlege elérte a maximumot, ezért megkapta a legmagasabb &6Ⓜ &cértéket!
 addErrorIntMaxPlayer|: &9&lMystic&b&lLand &f&l>> &b%s &3küldeni akart neked &6%sⓂ&3-t, de ez több mint a maximum megengedett érték!

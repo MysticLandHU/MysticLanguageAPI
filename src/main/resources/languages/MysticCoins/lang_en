@@ -11,6 +11,7 @@ transferSuccess|: &9&lMystic&b&lLand &f&l>> &3You have successfully transferred 
 transferNotified|: &9&lMystic&b&lLand &f&l>> &3You have received &6%sⓂ&3 from player &b%s
 transferCancelled|: &9&lMystic&b&lLand &f&l>> &cYou have cancelled the transfer!
 transferSelf|: &9&lMystic&b&lLand &f&l>> &cYou cannot transfer to yourself!
+transferAnswerYes|: yes
 addSuccess|: &9&lMystic&b&lLand &f&l>> &3You have successfully sent &6%sⓂ&3 to player &b%s
 addErrorIntMaxSender|: &9&lMystic&b&lLand &f&l>> &cThe player's balance has reached the maximum, so they received the highest value of &6Ⓜ&c!
 addErrorIntMaxPlayer|: &9&lMystic&b&lLand &f&l>> &b%s &cattempted to send you &6%sⓂ&3, but it exceeds the maximum allowed value!

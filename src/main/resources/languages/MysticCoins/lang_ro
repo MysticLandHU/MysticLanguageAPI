@@ -11,6 +11,7 @@ transferSuccess|: &9&lMystic&b&lLand &f&l>> &3Ai transferat cu succes &6%sⓂ&3 
 transferNotified|: &9&lMystic&b&lLand &f&l>> &3Ai primit &6%sⓂ&3 de la jucătorul &b%s
 transferCancelled|: &9&lMystic&b&lLand &f&l>> &cAi anulat transferul!
 transferSelf|: &9&lMystic&b&lLand &f&l>> &cNu poți transfera către tine însuți!
+transferAnswerYes|: da
 addSuccess|: &9&lMystic&b&lLand &f&l>> &3Ai trimis cu succes &6%sⓂ &bjucătorului &b%s
 addErrorIntMaxSender|: &9&lMystic&b&lLand &f&l>> &cSoldul jucătorului a atins maximul, astfel că a primit valoarea maximă de &6Ⓜ&c!
 addErrorIntMaxPlayer|: &9&lMystic&b&lLand &f&l>> &b%s &ca încercat să îți trimită &6%sⓂ&3, dar depășește valoarea maximă permisă!
