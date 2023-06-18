@@ -1,0 +1,42 @@
+languageName|: English
+selectorItemName|: &2Arena Selector
+selectorItemLore|: &7(Right-click)
+mainCommandLine1|: &2The MysticLand Arena Selector plugin
+mainCommandLine2|: &2Enjoy your game from the management!
+openCommandLine1|: &9&lMystic&b&lLand &f&l>> &2GUI opened!
+giveCommandSuccess|: &9&lMystic&b&lLand &f&l>> &2Successfully summoned the arena selector!
+giveCommandAlreadyInv|: &9&lMystic&b&lLand &f&l>> &cThe selector is already in your inventory!
+helpCommandLines|: &f&l------------------
+helpCommandTitle|: &9&lMystic&b&lLand &2&lArena Selector
+helpCommandMain|: &b/ms &7- &3Main command
+helpCommandOpen|: &b/ms open &7- &3Open the GUI for yourself
+helpCommandAdd|: &b/ms add &7- &3Retrieve the GUI item to your inventory
+helpCommandDebug|: &b/ms debug <true | false> &7- &3Toggle debug output in the console
+debugCommandArgNull|: &9&lMystic&b&lSelector &f&l>> &cUsage: &2/ms debug <true | false>
+debugCommandArgTrue|: &9&lMystic&b&lSelector &f&l>> &2Debug mode enabled in the console!
+debugCommandArgFalse|: &9&lMystic&b&lSelector &f&l>> &2Debug mode disabled in the console!
+GUIStatusWaiting|: &fStatus: &eWaiting...
+GUIStatusWaitingLore|: &fNeed &e%s &fmore player(s)!
+GUIStatusWaitingLore2|: &eThe arena will start soon, join now!
+GUIStatusRunning|: &fStatus: &cRunning...
+GUIStatusRunningErrorChat|: &c&lSelector &f&l>> &cThis arena is already running!
+GUIStatusRebuilding|: &fStatus: &6Rebuilding...
+GUIStatusRebuildingErrorChat|: &c&lSelector &f&l>> &cThis arena is under restart!
+GUIStatusEndGame|: &fStatus: &6Ending game...
+GUIStatusEndGameErrorChat|: &c&lSelector &f&l>> &cThis arena will be available soon!
+GUITitle|: &2Arena Selector
+GUIBedrockAfterTitle|: &b&lChoose an arena from the list
+GUIBedrockRunning|: &e&l%s&f/&e&l%s &rplayers
+GUIContentBedrockRun1|: &fArena Name: &4%s
+GUIContentBedrockRun2|: &fStatus: &cRunning
+GUIContentBedrockRun3|: &fPlayers: &e%s&f/&e%s
+GUIContentBedrockUpdate|: Update
+GUIContentBedrockConnect|: Connect
+GUIContentBedrockBack|: Back
+GUIContentBedrockWait1|: &fArena Name: &2%s
+GUIContentBedrockWait2|: &fStatus: &2Waiting...
+GUIContentBedrockWait3|: &fPlayers: &e%s&f/&e%s
+GUIContentBedrockWait4|: &fNeed &e%s &fmore player(s)
+GUIContentBedrockWait5|: &eThe arena will start soon, join now!
+GUIContentBedrockEnd1|: &fArena Name: &6%s
+GUIContentBedrockEnd2|: &fStatus: &6Restarting...
