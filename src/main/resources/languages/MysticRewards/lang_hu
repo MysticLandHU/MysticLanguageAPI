@@ -1,0 +1,7 @@
+languageName|: Magyar
+winTeamChatMessage|: &2Jóváírtunk &6%sⓂ&2-t a fiókodra BedWars nyeremény miatt!
+bedBreakTitleMain|: &cA csapatod ágya eltört!
+bedBreakTitleSub|: &fMostantól nem éledhetsz újra!
+bedBreakChatMessage|: &r%s%s &3összetörte a %s%s &3csapat ágyát!
+bedBreakChatMessageLines|: &6--------------------
+configReloadedRewards|: &9&lMystic&b&lLand &f&l>> &2A konfiguráció sikeresen újratöltve!
