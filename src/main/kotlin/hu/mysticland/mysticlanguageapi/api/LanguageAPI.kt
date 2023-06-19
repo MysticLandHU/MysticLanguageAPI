@@ -33,6 +33,7 @@ object LanguageAPI {
     var languagesDisplayNamesList = mutableListOf<String>()
 
     // TODO: Try to add a sign belowName to see the language of the player
+    // TODO: Nyelvi támogatás: MysticSafe, MysticBan, FakeLobbyTeleport, MysticTeamSelector, MysticBWshopBR(IMPOSSIBLE!!!444!!)
 
     fun getLine(x: String, player: Player): String {
         val lang = getLanguage(player)
