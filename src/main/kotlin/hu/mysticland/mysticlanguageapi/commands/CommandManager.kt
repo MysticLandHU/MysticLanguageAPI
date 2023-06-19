@@ -1,7 +1,5 @@
 package hu.mysticland.mysticlanguageapi.commands
 
-import hu.mysticland.mysticboosts.api.BoostsAPI
-import hu.mysticland.mysticboosts.npc.NPCManager
 import hu.mysticland.mysticlanguageapi.Language
 import hu.mysticland.mysticlanguageapi.MysticLanguageAPI.Companion.plugin
 import hu.mysticland.mysticlanguageapi.api.LanguageAPI
@@ -31,7 +29,6 @@ class CommandManager {
             }.runTaskLaterAsynchronously(plugin, 20 * 3L)
             if(LanguageAPI.languageData.keys.contains(Language(lang))) {
                 LanguageAPI.setLanguage(player, Language(lang))
-                BoostsAPI.reloadNpcLanguage(player)
                 player.sendMessage(FormatUtils.color(String.format(LanguageAPI.getLine("successLangChange", player))))
             }else{
                 player.sendMessage(FormatUtils.color(String.format(LanguageAPI.getLine("langNotExist", player))))

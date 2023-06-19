@@ -1,6 +1,6 @@
 name: MysticLanguageAPI
 main: hu.mysticland.mysticlanguageapi.MysticLanguageAPI
-version: 1.0.0
+version: 1.1.53
 depend:
   - RedLib
   - KotlinCraft

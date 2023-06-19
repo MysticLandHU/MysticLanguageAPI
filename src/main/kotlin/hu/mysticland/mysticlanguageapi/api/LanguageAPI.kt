@@ -6,6 +6,8 @@ import hu.mysticland.mysticlanguageapi.Language
 import hu.mysticland.mysticlanguageapi.MysticLanguageAPI
 import hu.mysticland.mysticlanguageapi.MysticLanguageAPI.Companion.plugin
 import hu.mysticland.mysticlanguageapi.SavedSetting
+import hu.mysticland.mysticlanguageapi.event.LanguageChangeEvent
+import org.bukkit.Bukkit
 import org.bukkit.command.Command
 import org.bukkit.command.CommandSender
 import org.bukkit.entity.Player
@@ -124,8 +126,13 @@ object LanguageAPI {
 
 
     fun setLanguage(player: Player, lang: Language){
-        languageSettings.set(player.uniqueId,lang)
-        languageSettingsSender.set(player, lang)
+        val oldLanguage = getLanguage(player)
+        val event = LanguageChangeEvent(player, oldLanguage?.lang ?: "", lang.lang)
+        Bukkit.getPluginManager().callEvent(event)
+        if (!event.isCancelled) {
+            languageSettings[player.uniqueId] = lang
+            languageSettingsSender[player] = lang
+        }
     }
 
     fun getLanguage(player: Player): Language? {
