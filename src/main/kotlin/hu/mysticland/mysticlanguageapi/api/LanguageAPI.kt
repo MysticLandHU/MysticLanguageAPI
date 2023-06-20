@@ -43,6 +43,7 @@ object LanguageAPI {
             if (lines.containsKey(x)) {
                 line = lines[x].toString()
             }else{
+                plugin.logger.severe("A $lang nyelv nem tartalmazza a(z) $x sort!")
                 return ""
             }
         }else {
@@ -58,6 +59,7 @@ object LanguageAPI {
             if (lines.containsKey(x)) {
                 line = lines[x].toString()
             }else{
+                plugin.logger.severe("A $lang nyelv nem tartalmazza a(z) $x sort!")
                 return ""
             }
         }else {
@@ -73,6 +75,7 @@ object LanguageAPI {
             if (lines.containsKey(x)) {
                 line = lines[x].toString()
             }else{
+                plugin.logger.severe("A $lang nyelv nem tartalmazza a(z) $x sort!")
                 return ""
             }
         }else {
