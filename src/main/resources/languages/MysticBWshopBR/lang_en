@@ -1,0 +1,76 @@
+languageName|: English
+MaterialBronz|: &4Bronze
+MaterialIron|: &7Iron Ingot
+MaterialGold|: &6Gold Ingot
+SandStoneDisplayName|: &fSandstone
+WoolDisplayName|: &fWool
+EndStoneDisplayName|: &fEnd Stone
+IronBlockDisplayName|: &fIron Block
+GlowstoneDisplayName|: &fGlowstone
+StainedGlassDisplayName|: &fStained Glass
+LeatherHelmetDisplayName|: &fLeather Helmet
+LeatherLeggingsDisplayName|: &fLeather Leggings
+LeatherBootsDisplayName|: &fLeather Boots
+ChainmailChetplateLVL1DisplayName|: &fChainmail Chestplate &lLVL 1
+ChainmailChetplateLVL2DisplayName|: &fChainmail Chestplate &lLVL 2
+ChainmailChetplateLVL3DisplayName|: &fChainmail Chestplate &lLVL 3
+IronHelmetDisplayName|: &fIron Helmet
+WoodenPickaxeDisplayName|: &fWooden Pickaxe
+StonePickaxeDisplayName|: &fStone Pickaxe
+IronPickaxeDisplayName|: &fIron Pickaxe
+StickDisplayName|: &fStick &o(Knockback I.)
+GoldenSwordLVL1DisplayName|: &fGolden Sword &lLVL 1
+GoldenSwordLVL2DisplayName|: &fGolden Sword &lLVL 2
+GoldenSwordLVL3DisplayName|: &fGolden Sword &lLVL 3
+IronSwordDisplayName|: &fIron Sword
+GoldenAxeDisplayName|: &cThe Infinite Axe
+BowLVL1DisplayName|: &fBow &lLVL 1
+BowLVL2DisplayName|: &fBow &lLVL 2
+BowLVL3DisplayName|: &fBow &lLVL 3
+BowLVL4DisplayName|: &fBow &lLVL 4
+BowLVL5DisplayName|: &fBow &lLVL 5
+ArrowDisplayName|: &fArrow
+CoockedPorkchopDisplayName|: &fCooked Porkchop
+GoldenAppleDisplayName|: &bGolden Apple
+EnchantedGoldenAppleDisplayName|: &dEnchanted Golden Apple
+BreadDisplayName|: &fBread
+ChestDisplayName|: &fChest
+EnderChestDisplayName|: &fEnder Chest
+InstantHealPotionDisplayName|: &fInstant Healing Potion
+SpeedPotionDisplayName|: &fSpeed Potion
+StrengthPotionDisplayName|: &fStrength Potion
+RegenPotionDisplayName|: &fRegeneration Potion
+TntDisplayName|: &fTNT
+GunpowderDisplayName|: &2Home Teleporter
+GunpowderLore|: If you use this, you will be teleported back to your own island within 6 seconds. Useful for escape.
+StringDisplayName|: &eTrap
+StringLore|: You will be notified when someone walks into your trap. When someone walks into your trap, the enemy gets Blindness, Weakness, and Slowness III for 5 seconds.
+IronBootsDisplayName|: &fMagnetic Boots
+IronBootsLore|: If you wear these boots, you have a 75% chance of not getting knocked back!
+CompassDisplayName|: &3Tracker
+CompassLore|: Want to know where the nearest target is? Try this!
+BlazeRodDisplayName|: &6Rescue Rod
+BlazeRodLore|: Protect yourself from falling. Useful when someone tries to knock you off. This is your last hope!
+EnderEyeDisplayName|: &eArrow Blocker
+EnderEyeLore|: Blocks incoming arrows. When activated, you are immune to arrows for 10 seconds. A very useful item.
+BricksDisplayName|: &cDefense Wall
+BricksLore|: Instantly builds a 5x3 wall that cannot be knocked down. It can be a lifesaver.
+GolemDisplayName|: &fGolem
+GolemLore|: Summons an iron golem that attacks incoming enemies.
+TntSheepDisplayName|: &fTNT Sheep
+TntSheepLore|: Summons a sheep with TNT on its back. It walks towards the nearest enemy and explodes 8 seconds after summoning!
+FireChargeDisplayName|: &fFireball
+ElytraDisplayName|: &fElytra
+FireworkRocketDisplayName|: &fFirework Rocket
+MBWSHOPBRGUIPrice|: &r&e&lPrice:
+MBWSHOPBRGUICurrentBronzeBalance|: Your current &4bronze &rbalance: &4%s
+MBWSHOPBRGUICurrentIronBalance|: Your current &7iron &rbalance: &7%s
+MBWSHOPBRGUICurrentGoldBalance|: Your current &6gold &rbalance: &6%s
+MBWSHOPBRGUI2Title|: &3Purchase Details
+MBWSHOPBRGUI2Label1|: &fName: &b&l%s
+MBWSHOPBRGUI2Label2|: &fQuantity: &b&l%s
+MBWSHOPBRGUI2Label3|: &fPrice: &b&l%s %s
+MBWSHOPBRGUI2Label4|: &fDescription: &b%s
+MBWSHOPBRGUI2Slider|: &3&lSet the quantity using the slider
+MBWSHOPBRSuccessPay|: &9&lMystic&b&lLand &f&l>> &aSuccessful purchase
+MBWSHOPBRNotEnoughBal|: &9&lMystic&b&lLand &f&l>> &cInsufficient balance!

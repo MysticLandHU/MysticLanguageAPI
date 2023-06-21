@@ -1,0 +1,76 @@
+languageName|: Română
+MaterialBronz|: &4Bronz
+MaterialIron|: &7Lingou de fier
+MaterialGold|: &6Lingou de aur
+SandStoneDisplayName|: &fPiatră de nisip
+WoolDisplayName|: &fLână
+EndStoneDisplayName|: &fPiatră de sfârșit
+IronBlockDisplayName|: &fBloc de fier
+GlowstoneDisplayName|: &fPiatră luminoasă
+StainedGlassDisplayName|: &fSticlă colorată
+LeatherHelmetDisplayName|: &fCască de piele
+LeatherLeggingsDisplayName|: &fPantaloni de piele
+LeatherBootsDisplayName|: &fCizme de piele
+ChainmailChetplateLVL1DisplayName|: &fPlatoșă de zale &lLVL 1
+ChainmailChetplateLVL2DisplayName|: &fPlatoșă de zale &lLVL 2
+ChainmailChetplateLVL3DisplayName|: &fPlatoșă de zale &lLVL 3
+IronHelmetDisplayName|: &fCasca de fier
+WoodenPickaxeDisplayName|: &fTopor de lemn
+StonePickaxeDisplayName|: &fTopor de piatră
+IronPickaxeDisplayName|: &fTopor de fier
+StickDisplayName|: &fBăț &o(Spate I.)
+GoldenSwordLVL1DisplayName|: &fSpadă de aur &lLVL 1
+GoldenSwordLVL2DisplayName|: &fSpadă de aur &lLVL 2
+GoldenSwordLVL3DisplayName|: &fSpadă de aur &lLVL 3
+IronSwordDisplayName|: &fSpadă de fier
+GoldenAxeDisplayName|: &cToporul Infinit
+BowLVL1DisplayName|: &fArc &lLVL 1
+BowLVL2DisplayName|: &fArc &lLVL 2
+BowLVL3DisplayName|: &fArc &lLVL 3
+BowLVL4DisplayName|: &fArc &lLVL 4
+BowLVL5DisplayName|: &fArc &lLVL 5
+ArrowDisplayName|: &fSăgeată
+CoockedPorkchopDisplayName|: &fFriptură de porc gătită
+GoldenAppleDisplayName|: &bMăr de aur
+EnchantedGoldenAppleDisplayName|: &dBlestematul măr de aur
+BreadDisplayName|: &fPâine
+ChestDisplayName|: &fCufăr
+EnderChestDisplayName|: &fCufăr Ender
+InstantHealPotionDisplayName|: &fPocionul de vindecare instantă
+SpeedPotionDisplayName|: &fPocionul de viteză
+StrengthPotionDisplayName|: &fPocionul de forță
+RegenPotionDisplayName|: &fPocionul de regenerare
+TntDisplayName|: &fDinamită
+GunpowderDisplayName|: &2Teleportator acasă
+GunpowderLore|: Dacă folosești asta, vei fi teleportat înapoi pe insula ta în decurs de 6 secunde. Util în situații de evadare.
+StringDisplayName|: &eCapcană
+StringLore|: Vei primi o notificare atunci când cineva intră în capcana ta. Când cineva intră în capcana ta, inamicul primește Orbire, Slăbiciune și Lentorare III timp de 5 secunde.
+IronBootsDisplayName|: &fCizme magnetice
+IronBootsLore|: Dacă porți aceste cizme, ai o șansă de 75% să nu fii respins!
+CompassDisplayName|: &3Urmăritor
+CompassLore|: Vrei să știi unde este cea mai apropiată țintă? Încearcă asta!
+BlazeRodDisplayName|: &6Baston de salvare
+BlazeRodLore|: Te protejează de cădere. Util când cineva încearcă să te respingă. Aceasta este ultima ta speranță!
+EnderEyeDisplayName|: &eBlocant de săgeți
+EnderEyeLore|: Blochează săgețile care se apropie. Dacă este activat, ești imun la săgeți timp de 10 secunde. Un obiect foarte util.
+BricksDisplayName|: &cZid de apărare
+BricksLore|: Construiește instantaneu un zid de 5x3 care nu poate fi dărâmat. Poate fi salvator.
+GolemDisplayName|: &fGolem
+GolemLore|: Invocă un golem de fier care atacă inamicii care se apropie.
+TntSheepDisplayName|: &fOaie cu dinamită
+TntSheepLore|: Invocă o oaie cu dinamită pe spate. Se îndreaptă către cel mai apropiat inamic și explodează la 8 secunde după invocare!
+FireChargeDisplayName|: &fMinge de foc
+ElytraDisplayName|: &fElytra
+FireworkRocketDisplayName|: &fRachetă de artificii
+MBWSHOPBRGUIPrice|: &r&e&lPreț:
+MBWSHOPBRGUICurrentBronzeBalance|: Soldul tău curent de &4bronz &reste: &4%s
+MBWSHOPBRGUICurrentIronBalance|: Soldul tău curent de &7fier &reste: &7%s
+MBWSHOPBRGUICurrentGoldBalance|: Soldul tău curent de &6aur &reste: &6%s
+MBWSHOPBRGUI2Title|: &3Detalii Achiziție
+MBWSHOPBRGUI2Label1|: &fNume: &b&l%s
+MBWSHOPBRGUI2Label2|: &fCantitate: &b&l%s
+MBWSHOPBRGUI2Label3|: &fPreț: &b&l%s %s
+MBWSHOPBRGUI2Label4|: &fDescriere: &b%s
+MBWSHOPBRGUI2Slider|: &3&lSetează cantitatea folosind cursorul
+MBWSHOPBRSuccessPay|: &9&lMystic&b&lLand &f&l>> &aAchiziție reușită
+MBWSHOPBRNotEnoughBal|: &9&lMystic&b&lLand &f&l>> &cSold insuficient!

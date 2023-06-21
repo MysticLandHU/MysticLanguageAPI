@@ -1,0 +1,76 @@
+languageName|: Magyar
+MaterialBronz|: &4Bronz
+MaterialIron|: &7Vasrúd
+MaterialGold|: &6Aranyrúd
+SandStoneDisplayName|: &fHomokkő
+WoolDisplayName|: &fGyapjú
+EndStoneDisplayName|: &fEndkő
+IronBlockDisplayName|: &fVasblokk
+GlowstoneDisplayName|: &fIzzókő
+StainedGlassDisplayName|: &fSzínezett üveg
+LeatherHelmetDisplayName|: &fBőrsisak
+LeatherLeggingsDisplayName|: &fBőrnadrág
+LeatherBootsDisplayName|: &fBőrcsizma
+ChainmailChetplateLVL1DisplayName|: &fLánc mellvért &lLVL 1
+ChainmailChetplateLVL2DisplayName|: &fLánc mellvért &lLVL 2
+ChainmailChetplateLVL3DisplayName|: &fLánc mellvért &lLVL 3
+IronHelmetDisplayName|: &fSapi
+WoodenPickaxeDisplayName|: &fFacsákány
+StonePickaxeDisplayName|: &fKőcsákány
+IronPickaxeDisplayName|: &fVascsákány
+StickDisplayName|: &fBot &o(Hátra I.)
+GoldenSwordLVL1DisplayName|: &fAranykard &lLVL 1
+GoldenSwordLVL2DisplayName|: &fAranykard &lLVL 2
+GoldenSwordLVL3DisplayName|: &fAranykard &lLVL 3
+IronSwordDisplayName|: &fVaskard
+GoldenAxeDisplayName|: &cA Végtelen Balta
+BowLVL1DisplayName|: &fÍj &lLVL 1
+BowLVL2DisplayName|: &fÍj &lLVL 2
+BowLVL3DisplayName|: &fÍj &lLVL 3
+BowLVL4DisplayName|: &fÍj &lLVL 4
+BowLVL5DisplayName|: &fÍj &lLVL 5
+ArrowDisplayName|: &fNyíl
+CoockedPorkchopDisplayName|: &fSült sertésszelet
+GoldenAppleDisplayName|: &bAranyalma
+EnchantedGoldenAppleDisplayName|: &dBűvös alma
+BreadDisplayName|: &fKenyér
+ChestDisplayName|: &fLáda
+EnderChestDisplayName|: &fCsapatláda
+InstantHealPotionDisplayName|: &fAzonnali gyógyulás bájitala
+SpeedPotionDisplayName|: &fGyorsaság bájitala
+StrengthPotionDisplayName|: &fErő bájitala
+RegenPotionDisplayName|: &fRegenerálódás bájitala
+TntDisplayName|: &fIdőzített Bomba
+GunpowderDisplayName|: &2Haza teleportáló
+GunpowderLore|: Ha ezt használod, akkor 6 másodpercen belül vissza fogsz kerülni a saját szigetedre. Hasznos meneküléskor.
+StringDisplayName|: &eCsapda
+StringLore|: Értesítést kapsz, ha valaki belesétál a csapdádba. Amikor valaki belesétál a csapdádba, az ellenfél kap. Vakság, Gyengeség, és Lassúság III-t 5 másodpercig.
+IronBootsDisplayName|: &fMágneses Cipő
+IronBootsLore|: Ha ezt a cipőt viseled, akkor 75% esély arra, hogy ne kapj hátralökést!
+CompassDisplayName|: &3Követő
+CompassLore|: Szeretnéd tudni, hol van a legközelebbi célpont? Próbáld ki ezt!
+BlazeRodDisplayName|: &6Mentőrúd
+BlazeRodLore|: Védd meg magad attól, hogy leess. Hasznos, ha megpróbálnak kilökni. Ez az utolsó reményed!
+EnderEyeDisplayName|: &eNyílblokkoló
+EnderEyeLore|: Blokkolja a nyilakat, amelyek közelednek. Ha ezt aktiválod immunis leszel a nyilakra 10 másodpercig. Nagyon hasznos item.
+BricksDisplayName|: &cVédelmi fal
+BricksLore|: Instant megépít egy 5x3-mas falat, amit nem lehet kiütni. Életmentő lehet.
+GolemDisplayName|: &fGólem
+GolemLore|: Leidéz egy vasgólemet, ami támadja az érkező ellenfeleket.
+TntSheepDisplayName|: &fTNT Bárány
+TntSheepLore|: Ez leidéz egy bárányt, aminek a hátán egy TNT van. A legközelebbi ellenfélhez sétál, és leidézés után 8 másodperccel felrobban!
+FireChargeDisplayName|: &fTűzgolyó
+ElytraDisplayName|: &fElytra
+FireworkRocketDisplayName|: &fTűzijáték-rakéta
+MBWSHOPBRGUIPrice|: &r&e&lÁr:
+MBWSHOPBRGUICurrentBronzeBalance|: Jelenlegi &4bronz &regyenleged: &4%s
+MBWSHOPBRGUICurrentIronBalance|: Jelenlegi &7 vas &regyenleged: &7%s
+MBWSHOPBRGUICurrentGoldBalance|: Jelenlegi &6arany &r egyenleged: &6%s
+MBWSHOPBRGUI2Title|: &3Vásárlás részletei
+MBWSHOPBRGUI2Label1|: &fNév: &b&l%s
+MBWSHOPBRGUI2Label2|: &fMennyiség: &b&l%s
+MBWSHOPBRGUI2Label3|: &fÁr: &b&l%s %s
+MBWSHOPBRGUI2Label4|: &fLeírás: &b%s
+MBWSHOPBRGUI2Slider|: &3&lAdd meg a menyiséget a csúszka segítségével
+MBWSHOPBRSuccessPay|: &9&lMystic&b&lLand &f&l>> &aSikeres vásárlás
+MBWSHOPBRNotEnoughBal|: &9&lMystic&b&lLand &f&l>> &cNincs elég egyenleged!
