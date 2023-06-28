@@ -1,0 +1,23 @@
+languageName|: Magyar
+QuestionTopMessage|: Kattints a helyes válaszra! 
+MysticSecretsTitle|: Gratulálunk!
+MysticSecretsSubTitle|: Megtaláltad a készítők csarnokát!
+Question1|: Mikor nyílt meg a szerver hivatalosan?
+Question1Answer1|: 2023. szeptember
+Question1Answer2|: 2023. november
+Question1Answer3|: 1969. január
+Question1Correct|: 2023. szeptember
+Question2|: Hány bónuszt lehet vásárolni a szerveren összesen?
+Question2Answer1|: 6
+Question2Answer2|: 5
+Question2Answer3|: 8
+Question2Correct|: 6
+Question3|: Hány pixel SZÉLES a MysticCoin logója?
+Question3Answer1|: 11
+Question3Answer2|: 64
+Question3Answer3|: 9
+Question3Correct|: 9
+MysticSecretsRemoved|: &9&lMystic&b&lLand &f&l>> &5Sikeres eltávolítás!
+MysticSecretsFailedRemove|: &9&lMystic&b&lLand &f&l>> &cNincs ilyen játékos a listában!
+MysticSecretsLosed|: &9&lMystic&b&lLand &f&l>> &cSajnos a kérdés helytelen volt! Köszönjük a részvételt! Ha szeretnéd, nyugodtan szétnézhetsz a &5Készítők Kamrájában&c!
+MysticSecretsSuccess3Questions|: &9&lMystic&b&lLand &f&l &5Helyesen válaszoltál mind a 3 kérdésre! A Jutalmad MysticCoin, illetve nézz szét nyugodtan a Készítők Kamrájában!

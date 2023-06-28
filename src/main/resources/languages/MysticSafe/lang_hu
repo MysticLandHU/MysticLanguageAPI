@@ -1,0 +1,29 @@
+languageName|: Magyar
+MFMainCommandLine1|: &3Ez a &9Mystic&bLand &3védelmi pluginja az adminok és tulajok számára.
+MFMainCommandLine2|: &2Segítségért írd be a &l&3/mf help &2parancsot.
+MFloginTitle: 🔒&f&l[&9&lM&b&lL&f&l] &4&lKérlek jelentkezz be!🔒
+MFloginSubtitle: &c/MF login <kód>
+MFalreadyLogOn: &f[&4Védelem&f] &cMár be vagy jelentkezve
+MFfailTitle: 🔒&f&l[&9&lM&b&lL&f&l] &4&lKérlek jelentkezz be!🔒
+MFfailSubtitle: &4&lMár csak %s próbálkozásod van!
+MFfailRTitle: 🔒&f&l[&9&lM&b&lL&f&l] &4&lNincs több lehetőséged!🔒
+MFfailRSubtitle: &4&lFelfüggesztés folyamatban...
+MFsuccessMsg: &f[&4Védelem&f] &aAzonosítás sikeres! Jó játékot!
+MFsuccessLoginWithin10sec: &f[&4Védelem&f] &aIdőn belül visszaléptél, ezért nem kell a jelszó! Jó játékot!
+MFgeneratedCodeJSON1: &eA hitelesítő kódod
+MFgeneratedCodeJSON2: &eNE add meg senkinek és őrizd biztos helyen, akár jelszókezelőben!
+MFgeneratedCodeHoverJSON: &3Katt ide a kimásoláshoz
+MFhelp: &3Segítség oldal &21/1:
+MFhelpBase: &3/MF: &2Alap parancs
+MFhelpLogin: &3/MF login (Kód): &2Bejelentkezéses parancs
+MFhelpGen: &3/MF generate (Játékos): &2Kód generálása egy adott játékosnak &c(Csak Konzolból)
+MFhelpDrop: &3/MF drop (Játékos): &2Játékos törlése a rendszerből &c(Csak Konzolból)
+MFhelp: &3Segítség oldal &21/1:
+MFhelpHelp: &3/MF help: &2Segítségkérő parancs
+MFhelpReload: &3/MF reload: &2A Konfiguráció újratöltése
+MFbanMessage|:  Túl sok hibás bejelentkezési kísérlet, ezért a fiókodat felfüggesztettük.
+MFDropCommandError|: &e%s &cnincs benne az adatbázisban!
+MFAlertPlayerDropped|: &f[&4Védelem&f] &cEl lettél távolítva a védelmi plugin adatbázisából!
+MFGeneratedCodeLines|: &6----------------------------------------
+MFGeneratedCodePlayer|: &f[&4Védelem&f] &2Kódot generáltak neked a védelmi pluginhoz!
+MFConfigReloaded|: A Konfiguráció sikeresen újratöltve!
