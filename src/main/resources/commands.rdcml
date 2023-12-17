@@ -16,12 +16,6 @@ lang {
 getlang player:player {
     hook cmd_getlang
     user player
-    permission mysticboosts.getlang
+    permission mysticlanguageapi.getlang
     nohelp
-}
-    //getlist {
-    //    hook cmd_getlist
-    //    user player
-    //    permission mysticboosts.getlist
-    //}
 }

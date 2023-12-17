@@ -16,8 +16,10 @@ class MysticLanguageAPI: JavaPlugin() {
         languageAPI.languageAPI = plugin
         CommandParser(getResource("commands.rdcml"), Messages.getLoaded(this)).parse()
             .register("mysticlang", CommandManager())
-        LanguageAPI.loadLanguagesFromFile()
-        LanguageAPI.loadLanguages("languages")
+        LanguageAPI.getPluginNames()
+        LanguageAPI.getAvailableLanguages()
+        LanguageAPI.loadLanguages()
+        LanguageAPI.loadLangs4Player()
         logger.info("The API started successfully")
     }
 

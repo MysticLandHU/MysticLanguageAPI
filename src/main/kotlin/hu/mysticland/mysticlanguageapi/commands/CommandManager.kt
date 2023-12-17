@@ -19,7 +19,7 @@ class CommandManager {
     @CommandHook("activate-language")
     fun activateLanguage(player: Player, lang: String) {
         if (commandCooldown.contains(player)) {
-            player.sendMessage(String.format(LanguageAPI.getLine("commandCooldown", player)))
+            player.sendMessage(String.format(LanguageAPI.getLine("commandCooldown", player, plugin.name)))
         } else {
             commandCooldown.add(player)
             object : BukkitRunnable() {
@@ -29,51 +29,45 @@ class CommandManager {
             }.runTaskLaterAsynchronously(plugin, 20 * 3L)
             if(LanguageAPI.languageData.keys.contains(Language(lang))) {
                 LanguageAPI.setLanguage(player, Language(lang))
-                player.sendMessage(FormatUtils.color(String.format(LanguageAPI.getLine("successLangChange", player))))
+                player.sendMessage(FormatUtils.color(String.format(LanguageAPI.getLine("successLangChange", player, plugin.name))))
             }else{
-                player.sendMessage(FormatUtils.color(String.format(LanguageAPI.getLine("langNotExist", player))))
+                player.sendMessage(FormatUtils.color(String.format(LanguageAPI.getLine("langNotExist", player, plugin.name))))
             }
         }
     }
 
     @CommandHook("set-language")
     fun setLanguage(player: Player) {
-        var languages = LanguageAPI.getLanguages().toMutableList()
-        if (languages.isNotEmpty()) {
-            player.sendMessage(FormatUtils.color("&b----------------------------"))
-            player.sendMessage(FormatUtils.color(String.format(LanguageAPI.getLine("availableLanguages", player))))
-            player.sendMessage("")
-            while (languages.isNotEmpty()) {
-                var language = languages.get(0)
-                var languageName = LanguageAPI.languageData.get(language)!!.get("languageName")
-                val defs = TextComponent(FormatUtils.color("&8- "))
-                val message = TextComponent(FormatUtils.color("&f$languageName"))
-                message.clickEvent =
-                    ClickEvent(ClickEvent.Action.RUN_COMMAND, "/activate-language ${language.lang}")
-                player.sendMessage(defs, message)
-                while (languages.contains(language)) {
-                    languages.remove(language)
-                }
-            }
-            player.sendMessage("")
-            player.sendMessage(FormatUtils.color("&b----------------------------"))
-        }else {
-            player.sendMessage(FormatUtils.color(String.format(LanguageAPI.getLine("errorLoadingLang", player))))
-        }
+        val availableLanguages = LanguageAPI.availableLangs
 
+        if (availableLanguages.isNotEmpty()) {
+            player.sendMessage(FormatUtils.color("&b----------------------------"))
+            player.sendMessage(FormatUtils.color(LanguageAPI.getLine("availableLanguages", player, plugin.name)))
+            player.sendMessage("")
+
+            for (language in availableLanguages) {
+                val defs = TextComponent(FormatUtils.color("&8- "))
+                val message = TextComponent(FormatUtils.color("&f${language.lang}"))
+                message.clickEvent = ClickEvent(ClickEvent.Action.RUN_COMMAND, "/activate-language ${language.lang}")
+                player.sendMessage(defs, message)
+            }
+
+            player.sendMessage("")
+            player.sendMessage(FormatUtils.color("&b----------------------------"))
+        } else {
+            player.sendMessage(FormatUtils.color(LanguageAPI.getLine("errorLoadingLang", player, plugin.name)))
+        }
     }
+
     @CommandHook("cmd_lang")
     fun getLang(player: Player){
-        val lang = LanguageAPI.getLine("languageName",player)
         var langShort = LanguageAPI.getLanguage(player)!!.lang
-        player.sendMessage(FormatUtils.color("${String.format(LanguageAPI.getLine("activeLanguage",player),"&a"+lang)} &7(&a${langShort.removePrefix("lang_")}&7)"))
+        player.sendMessage(FormatUtils.color(String.format(LanguageAPI.getLine("activeLanguage",player, plugin.name),"&a"+langShort)))
     }
 
     @CommandHook("cmd_getlang")
     fun getLangForPlayer(sender: CommandSender, player: Player){
-
-        val lang = LanguageAPI.getLine("languageName",player)
         var langShort = LanguageAPI.getLanguage(player)!!.lang
-        sender.sendMessage(FormatUtils.color("${String.format(LanguageAPI.getLine("activeLanguageAdmin", Bukkit.getPlayer(sender.name)!!),player.name,"&a"+lang)} &7(&a${langShort.removePrefix("lang_")}&7)"))
+        sender.sendMessage(FormatUtils.color(String.format(LanguageAPI.getLine("activeLanguageAdmin", Bukkit.getPlayer(sender.name)!!, plugin.name),player.name,"&a"+langShort)))
     }
 }
