@@ -3,6 +3,7 @@ package hu.mysticland.mysticlanguageapi.api
 import com.google.gson.Gson
 import com.google.gson.GsonBuilder
 import hu.mysticland.mysticlanguageapi.Language
+import hu.mysticland.mysticlanguageapi.MysticLanguageAPI
 import hu.mysticland.mysticlanguageapi.MysticLanguageAPI.Companion.plugin
 import hu.mysticland.mysticlanguageapi.SavedSetting
 import hu.mysticland.mysticlanguageapi.event.LanguageChangeEvent
@@ -18,6 +19,9 @@ import redempt.redlib.misc.FormatUtils
 import java.io.File
 import java.io.FileReader
 import java.io.FileWriter
+import java.io.InputStream
+import java.nio.file.Files
+import java.nio.file.StandardCopyOption
 import java.util.*
 
 object LanguageAPI {
@@ -174,5 +178,25 @@ object LanguageAPI {
             pluginNames.add(it)
         }
         availablePlugins = pluginNames
+    }
+
+    fun checkLangFile(){
+        val pluginFolder = File(plugin.dataFolder.path)
+        val languagesFolder = File(pluginFolder, "languages")
+        val languagesFile = File(languagesFolder, "languages.json")
+        if (!languagesFolder.exists()) {
+            languagesFolder.mkdir()
+        }
+        if (!languagesFile.exists()) {
+            val resourceAsStream: InputStream? = MysticLanguageAPI::class.java.getResourceAsStream("/languages/languages.json")
+            if (resourceAsStream != null) {
+                Files.copy(resourceAsStream, languagesFile.toPath(), StandardCopyOption.REPLACE_EXISTING)
+                plugin.logger.info("A languages.json fájl létrejött a mappában.")
+            } else {
+                plugin.logger.warning("Nem sikerült létrehozni a languages.json fájlt a mappában.")
+            }
+        } else {
+            plugin.logger.info("A languages.json fájl megtalálható a mappában, plugin indítása...")
+        }
     }
 }

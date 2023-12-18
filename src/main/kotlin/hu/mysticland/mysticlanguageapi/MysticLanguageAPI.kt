@@ -16,7 +16,9 @@ class MysticLanguageAPI: JavaPlugin() {
         languageAPI.languageAPI = plugin
         CommandParser(getResource("commands.rdcml"), Messages.getLoaded(this)).parse()
             .register("mysticlang", CommandManager())
+        LanguageAPI.checkLangFile()
         LanguageAPI.getPluginNames()
+        logger.info("Elérhető pluginok: "+LanguageAPI.availablePlugins)
         LanguageAPI.getAvailableLanguages()
         LanguageAPI.loadLanguages()
         LanguageAPI.loadLangs4Player()

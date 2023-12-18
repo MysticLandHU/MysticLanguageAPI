@@ -984,6 +984,49 @@
                 "GUIContentBedrockEnd1": "&fNume Arenă: &6%s",
                 "GUIContentBedrockEnd2": "&fStátusz: &6 Reîncărcare..."
             }
+        },
+        "FakeLobbyTeleport": {
+            "English": {
+                "FLTNewChance": "You received a new chance! Have a great game from the team at &9&lMystic&b&lLand &f&l>>",
+                "FLTRealityMain": "Welcome to reality! &9&lMystic&b&lLand &cholds its doors closed for you. From &7&lReality&8&lLand &f&l>>",
+                "FLTRemainingMS": "Your closure expires in &c%s&e:&6%s",
+                "FLTRemainingHMS": "Unlocking in &c%s&e:&6%s&e:&6%s",
+                "FLTRemainingYMDHMS": "Unlocking in &c%s &eyears &6%s &emonths &6%s &edays &6%s&e:&6%s&e:&6%s",
+                "FLTRemainingNever": "Unlocking in &c&knever &e:&6&know&e:&6&kin the future",
+                "FLTTeleportInProgress": "Teleporting in a few seconds! from &9&lMystic&b&lLand &f&l>>"
+            },
+            "Magyar": {
+                "FLTNewChance": "&9&lMystic&b&lLand &f&l>> &2Kaptál egy új esélyt! Jó játékot kíván a csapat!",
+                "FLTRealityMain": "&7&lReality&8&lLand &f&l>> &cA &9&lMystic&b&lLand &cszámodra zárva tartja kapuit. Üdv a valóságban!",
+                "FLTRemainingMS": "&cA zárásod ekkor &3lejár: &6%s&e:&6%s",
+                "FLTRemainingHMS": "&cTiltás feloldása: &6%s&e:&6%s&e:&6%s",
+                "FLTRemainingYMDHMS": "&cTiltás feloldása: &6%s &eév &6%s &ehó&6 %s &enap &6%s&e:&6%s&e:&6%s",
+                "FLTRemainingNever": "&cA tiltás feloldása: &6&ksoha &e:&6&kaz&e:&6&kéletbe",
+                "FLTTeleportInProgress": "&9&lMystic&b&lLand &f&l>> &eElteleportálunk pár másodpercen belül!"
+            },
+            "Română": {
+                "FLTNewChance": "Ai primit o nouă șansă! Oricând să ai parte de joc plăcut de la echipa &9&lMystic&b&lLand &f&l>>",
+                "FLTRealityMain": "Bine ai venit în realitate! &9&lMystic&b&lLand &ține porțile închise pentru tine. De la &7&lReality&8&lLand &f&l>>",
+                "FLTRemainingMS": "Închiderea ta expiră în &c%s&e:&6%s",
+                "FLTRemainingHMS": "Deblocarea în &c%s&e:&6%s&e:&6%s",
+                "FLTRemainingYMDHMS": "Deblocarea în &c%s &eani &6%s &eluni &6%s &ezile &6%s&e:&6%s&e:&6%s",
+                "FLTRemainingNever": "Deblocarea în &c&kniciodată &e:&6&kacum&e:&6&kîn viitor",
+                "FLTTeleportInProgress": "Teleportare în câteva secunde! de la &9&lMystic&b&lLand &f&l>>"
+            }
+        },
+        "MysticTeamSelector": {
+            "English": {
+                "MTSGUITitle": "&3Arena Selector",
+                "MTSGUIContent": "&2Choose a team!"
+            },
+            "Magyar": {
+                "MTSGUITitle": "&3Aréna választó",
+                "MTSGUIContent": "&2Válassz egy csapatot!"
+            },
+            "Română": {
+                "MTSGUITitle": "&3Selector Arenă",
+                "MTSGUIContent": "&2Alege o echipă!"
+            }
         }
     }
 }
