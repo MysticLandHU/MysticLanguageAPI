@@ -1,5 +1,6 @@
 plugins {
     id 'org.jetbrains.kotlin.jvm' version '1.5.10'
+    id 'com.github.johnrengelman.shadow' version '7.1.2'
 }
 
 group 'hu.mysticland'
@@ -24,4 +25,14 @@ dependencies {
     compileOnly("com.destroystokyo.paper:paper-api:1.16.5-R0.1-SNAPSHOT")
     compileOnly("com.github.Redempt:RedLib:6.5.8")
     compileOnly("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
+}
+
+shadowJar {
+    archiveBaseName.set('MysticLanguageAPI')
+    archiveVersion.set('2.0.1')
+    archiveClassifier.set('')
+    configurations = [project.configurations.runtimeClasspath]
+
+    // JAR export path
+    destinationDirectory = file("C://Users//horvath.gergely//Desktop//classicbw paper//plugins")
 }
