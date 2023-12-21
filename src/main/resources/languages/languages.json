@@ -620,31 +620,67 @@
 
         "MysticLanguageAPI": {
             "English": {
+                "mainCommand": "&9&lMystic&b&lLand &f&l>> &3This language plugin was created for the &9Mystic&bLand &3server. For help, type the command &6/mlang help. &3The management wishes you a good game!",
+                "helpCommandPage1Line1" : "&9Mystic&bLanguage&6API &fplugin help Page: &61&f/&62",
+                "helpCommandPage1Line2" : "&3/lang,/language/languages,/mlang &f- &bMain command",
+                "helpCommandPage1Line3" : "&3/mlang help &f- &bHelp command",
+                "helpCommandPage1Line4" : "&3/set-language &f- &bSet language. After typing the command, click on the selected language.",
+                "helpCommandPage1Line5" : "&3/lang &f- &bView your current language.",
+                "helpCommandPage2Line1" : "&9Mystic&bLanguage&6API &fplugin help Page: &62&f/&62",
+                "helpCommandPage2Line2" : "&3/getlang &d<Player> &f- Query player's language &o&c(Admin command)&r",
+                "helpCommandPage2Line3" : "&3/mlang reload &f- Reload config &o&c(Admin command)&r",
                 "successLangChange": "&9&lMystic&b&lLand &f&l>> &aYou have successfully changed the language to English!",
                 "langNotExist": "&9&lMystic&b&lLand &f&l>> &cThis language does not exist!",
                 "commandCooldown": "&9&lMystic&b&lLand &f&l>> &cPlease wait a few seconds before using this command again!",
                 "activeLanguage": "&9&lMystic&b&lLand &f&l>> &3Your current language: &a%s",
                 "activeLanguageAdmin": "&9&lMystic&b&lLand &f&l>> &a%s &3language: &a%s",
                 "availableLanguages": "Available languages:",
-                "errorLoadingLang": "&9&lMystic&b&lLand &f&l>> &cFailed to load the requested language!"
+                "errorLoadingLang": "&9&lMystic&b&lLand &f&l>> &cFailed to load the requested language!",
+                "configReloaded": "&9&lMystic&b&lLand &f&l>> &aLanguage configuration successfully reloaded!",
+                "configNotReloaded": "&9&lMystic&b&lLand &f&l>> &cYou don't have permission for this!",
+                "lineKeyNotFound": "&9&lMystic&b&lLand &f&l>> &cLanguage key not found. Please notify an Admin!"
             },
             "Magyar": {
+                "mainCommand": "&9&lMystic&b&lLand &f&l>> &3Ez a nyelvi plugin a &9Mystic&bLand &3szerverre készült. Segítségért írd be a &6/mlang help &3parancsot. Jó játékot kíván a vezetőség!",
+                "helpCommandPage1Line1" : "&9Mystic&bLanguage&6API &fplugin segítség Oldal: &61&f/&62",
+                "helpCommandPage1Line2" : "&3/lang,/language/languages,/mlang &f- &bFő parancs",
+                "helpCommandPage1Line3" : "&3/mlang help &f- &bSegítség parancs",
+                "helpCommandPage1Line4" : "&3/set-language &f- &bNyelv beállítása. Parancs beírása után kattints a kiválasztott nyelvre.",
+                "helpCommandPage1Line5" : "&3/lang &f- &bMegnézheted a jelenlegi nyelved.",
+                "helpCommandPage2Line1" : "&9Mystic&bLanguage&6API &fplugin segítség Oldal: &62&f/&62",
+                "helpCommandPage2Line2" : "&3/getlang &d<Játékos> &f- Játékos nyelvének lekérdezése &o&c(Admin parancs)&r",
+                "helpCommandPage2Line3" : "&3/mlang reload &f- Konfig újratöltése &o&c(Admin parancs)&r",
                 "successLangChange": "&9&lMystic&b&lLand &f&l>> &aSikeresen váltottál Magyar nyelvre!",
                 "langNotExist": "&9&lMystic&b&lLand &f&l>> &cEz a nyelv nem létezik!",
                 "commandCooldown": "&9&lMystic&b&lLand &f&l>> &cKérlek várj pár másodpercet, hogy újra használd ezt a parancsot!",
                 "activeLanguage": "&9&lMystic&b&lLand &f&l>> &3A jelenlegi nyelved: &a%s",
                 "activeLanguageAdmin": "&9&lMystic&b&lLand &f&l>> &a%s &3nyelve: &a%s",
                 "availableLanguages": "Lehetséges nyelvek:",
-                "errorLoadingLang": "&9&lMystic&b&lLand &f&l>> &cNem sikerült a kért nyelv betöltése!"
+                "errorLoadingLang": "&9&lMystic&b&lLand &f&l>> &cNem sikerült a kért nyelv betöltése!",
+                "configReloaded": "&9&lMystic&b&lLand &f&l>> &aNyelvi konfiguráció sikeresen újratöltve!",
+                "configNotReloaded": "&9&lMystic&b&lLand &f&l>> &cNincs jogod ehhez!",
+                "lineKeyNotFound": "&9&lMystic&b&lLand &f&l>> &cNem található a nyelvi kulcs. Kérlek szólj egy Adminnak!"
             },
             "Română": {
+                "mainCommand": "&9&lMystic&b&lLand &f&l>> &3Acest plugin lingvistic a fost creat pentru serverul &9Mystic&bLand&3. Pentru asistență, tastează comanda &6/mlang help&3. Conducerea vă urează joc plăcut!",
+                "helpCommandPage1Line1" : "&9Mystic&bLanguage&6API &fplugin ajutor Pagină: &61&f/&62",
+                "helpCommandPage1Line2" : "&3/lang,/language/languages,/mlang &f- &bComandă principală",
+                "helpCommandPage1Line3" : "&3/mlang help &f- &bComandă de ajutor",
+                "helpCommandPage1Line4" : "&3/set-language &f- &bSetează limba. După tastarea comenzii, clic pe limba selectată.",
+                "helpCommandPage1Line5" : "&3/lang &f- &bVezi limba ta actuală.",
+                "helpCommandPage2Line1" : "&9Mystic&bLanguage&6API &fplugin ajutor Pagină: &62&f/&62",
+                "helpCommandPage2Line2" : "&3/getlang &d<Jucător> &f- Interoghează limba jucătorului &o&c(Comandă de admin)&r",
+                "helpCommandPage2Line3" : "&3/mlang reload &f- Reîncarcă configurația &o&c(Comandă de admin)&r",
                 "successLangChange": "&9&lMystic&b&lLand &f&l>> &aAi trecut cu succes la limba română!",
                 "langNotExist": "&9&lMystic&b&lLand &f&l>> &cAceastă limbă nu există!",
                 "commandCooldown": "&9&lMystic&b&lLand &f&l>> &cVă rugăm să așteptați câteva secunde înainte de a utiliza din nou această comandă!",
                 "activeLanguage": "&9&lMystic&b&lLand &f&l>> &3Limba curentă: &a%s",
                 "activeLanguageAdmin": "&9&lMystic&b&lLand &f&l>> &aLimba %s: &a%s",
                 "availableLanguages": "Limbi disponibile:",
-                "errorLoadingLang": "&9&lMystic&b&lLand &f&l>> &cNu s-a reușit încărcarea limbii solicitate!"
+                "errorLoadingLang": "&9&lMystic&b&lLand &f&l>> &cNu s-a reușit încărcarea limbii solicitate!",
+                "configReloaded": "&9&lMystic&b&lLand &f&l>> &aConfigurația limbii a fost reîncărcată cu succes!",
+                "configNotReloaded": "&9&lMystic&b&lLand &f&l>> &cNu ai permisiunea pentru aceasta!",
+                "lineKeyNotFound": "&9&lMystic&b&lLand &f&l>> &cCheia limbii nu a fost găsită. Te rog să informezi un Admin!"
             }
         },
 

@@ -1,21 +1,37 @@
+mysticlanguageapi,mysticlang,lang,language,languages,mlang {
+  hook cmd_main
+  nohelp
+  help {
+    hook cmd_help
+    nohelp
+      2 {
+        hook cmd_help_2
+        nohelp
+    }
+  }
+  reload {
+    hook cmd_reload
+    permission mysticlanguageapi.reload
+    nohelp
+  }
+}
 set-language {
     hook set-language
     user player
     nohelp
-}
+  }
 activate-language string:lang {
     hook activate-language
     user player
     nohelp
 }
+getlang player:player {
+    hook cmd_getlang
+    permission mysticlanguageapi.getlang
+    nohelp
+  }
 lang {
     hook cmd_lang
     user player
-    nohelp
-}
-getlang player:player {
-    hook cmd_getlang
-    user player
-    permission mysticlanguageapi.getlang
     nohelp
 }

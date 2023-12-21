@@ -35,12 +35,29 @@ object LanguageAPI {
 
     fun getLine(x: String, player: Player, pluginName: String): String {
         val lang = getLanguage(player)
-        return FormatUtils.color(getLineForLanguage(x, lang!!.lang, pluginName)).removeSurrounding("\"")
+        val translation = getTranslation(pluginName, lang!!.lang, x)
+        if (translation.isNotEmpty()){
+            return FormatUtils.color(getLineForLanguage(x, lang.lang, pluginName)).removeSurrounding("\"")
+        } else {
+            plugin.logger.severe("A(z) ${lang.lang} nyelv nem tartalmazza a(z) $x sort a(z) $pluginName pluginban!")
+            return FormatUtils.color(getLine("lineKeyNotFound", player, plugin.name))
+        }
+
     }
 
     fun getLine(x: String, sender: CommandSender, pluginName: String): String {
         val lang = getLanguage(sender)
-        return FormatUtils.color(getLineForLanguage(x, lang!!.lang, pluginName)).removeSurrounding("\"")
+        val translation = getTranslation(pluginName, lang!!.lang, x)
+        if (translation.isNotEmpty()){
+            return FormatUtils.color(getLineForLanguage(x, lang.lang, pluginName)).removeSurrounding("\"")
+        } else {
+            plugin.logger.severe("A(z) ${lang.lang} nyelv nem tartalmazza a(z) $x sort a(z) $pluginName pluginban!")
+            if (sender is Player) {
+                return FormatUtils.color(getLine("lineKeyNotFound", sender, plugin.name))
+            } else {
+                return FormatUtils.color("Hiba volt az egyik sor betöltésekor. Lásd feljebb!")
+            }
+        }
     }
 
     fun getLine(x: String, lang: Language, pluginName: String): String {
@@ -53,7 +70,7 @@ object LanguageAPI {
             if (translation.isNotEmpty()) {
                 return translation
             } else {
-                plugin.logger.severe("A $lang nyelv nem tartalmazza a(z) $x sort a(z) $pluginName pluginben!")
+                plugin.logger.severe("A $lang nyelv nem tartalmazza a(z) $x sort a(z) $pluginName pluginban!")
             }
         }
         return ""
@@ -198,5 +215,11 @@ object LanguageAPI {
         } else {
             plugin.logger.info("A languages.json fájl megtalálható a mappában, plugin indítása...")
         }
+    }
+
+    fun reloadLanguages() {
+        saveLang4Player()
+        loadLanguages()
+        loadLangs4Player()
     }
 }

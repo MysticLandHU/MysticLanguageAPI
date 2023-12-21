@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'hu.mysticland'
-version '2.0'
+version '2.1.0'
 
 repositories {
     mavenCentral()
@@ -29,10 +29,10 @@ dependencies {
 
 shadowJar {
     archiveBaseName.set('MysticLanguageAPI')
-    archiveVersion.set('2.0.1')
+    archiveVersion.set('2.1.0')
     archiveClassifier.set('')
     configurations = [project.configurations.runtimeClasspath]
 
     // JAR export path
-    destinationDirectory = file("C://Users//horvath.gergely//Desktop//classicbw paper//plugins")
+    destinationDirectory = file("C://Users//Geryy//Desktop//classicbw paper//plugins")
 }
